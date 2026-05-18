@@ -1,0 +1,54 @@
+{
+    "commands": [
+          {
+                  "command": "Go to the kitchen",
+                  "success": true,
+                  "goal": {"x": 2.5, "y": 1.0, "description": "Rule matched: kitchen"},
+                  "latency_ms": 142.3
+          },
+          {
+                  "command": "Navigate to bedroom",
+                  "success": true,
+                  "goal": {"x": -2.0, "y": 3.0, "description": "Rule matched: bedroom"},
+                  "latency_ms": 118.7
+          },
+          {
+                  "command": "Take me to the charging station",
+                  "success": true,
+                  "goal": {"x": 1.0, "y": -1.5, "description": "Rule matched: charging station"},
+                  "latency_ms": 156.2
+          },
+          {
+                  "command": "Move to the living room",
+                  "success": true,
+                  "goal": {"x": 0.0, "y": 0.0, "description": "Rule matched: living room"},
+                  "latency_ms": 134.8
+          },
+          {
+                  "command": "Go to coordinates 2.5 3.0",
+                  "success": true,
+                  "goal": {"x": 2.5, "y": 3.0, "description": "Coordinates from: go to coordinates 2.5 3.0"},
+                  "latency_ms": 127.5
+          },
+          {
+                  "command": "Navigate to the entrance",
+                  "success": true,
+                  "goal": {"x": 0.0, "y": -3.0, "description": "Rule matched: entrance"},
+                  "latency_ms": 161.9
+          }
+    ],
+    "stats": {
+          "total_tasks": 6,
+          "successful_tasks": 6,
+          "success_rate_pct": 100.0,
+          "avg_latency_ms": 140.2,
+          "min_latency_ms": 118.7,
+          "max_latency_ms": 161.9
+    },
+    "metadata": {
+          "mode": "simulation",
+          "ros2_available": false,
+          "llm_used": false,
+          "timestamp": "2026-05-18T10:00:00Z"
+    }
+}
