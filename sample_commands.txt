@@ -1,0 +1,24 @@
+# Sample navigation commands for GenAI Robot Agent
+# Lines starting with # are comments
+
+# Basic room navigation
+Go to the kitchen
+Navigate to bedroom
+Move to the bathroom
+Go to the living room
+
+# Action-based commands
+Take me to the charging station
+Bring me to the entrance
+Head to the desk
+Go to the table
+
+# Coordinate-based commands
+Go to coordinates 2.5 1.0
+Navigate to 0.0 3.0
+Move to position -1.5 2.0
+
+# Return commands
+Go home
+Return to origin
+Go back to starting position
